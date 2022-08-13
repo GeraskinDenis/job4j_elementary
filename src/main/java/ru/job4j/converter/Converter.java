@@ -9,12 +9,12 @@ public class Converter {
     }
 
     private static float rubleToEuro(int value) {
-        float rsl = (float) value / 70;
+        float rsl = (float) value / 70F;
         return rsl;
     }
 
     private static float rubleToDollar(int value) {
-        float rsl = (float) value / 60;
+        float rsl = (float) value / 60F;
         return rsl;
     }
 }
